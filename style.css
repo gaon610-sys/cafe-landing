@@ -1,0 +1,17 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; color: #3b2a20; background: #fffaf4; line-height: 1.6; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; background: #fff; position: sticky; top: 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.nav a { margin-left: 16px; color: #6b4a35; text-decoration: none; }
+.logo { color: #8b5a3c; font-size: 1.2rem; }
+.hero { text-align: center; padding: 110px 20px; background: linear-gradient(135deg, #e8cfb4, #c8a27c); }
+.hero h1 { font-size: 2.4rem; margin-bottom: 12px; }
+.hero p { margin-bottom: 28px; }
+.btn { display: inline-block; padding: 12px 28px; background: #6b4a35; color: #fff; border-radius: 999px; text-decoration: none; }
+.section { max-width: 900px; margin: 0 auto; padding: 64px 20px; text-align: center; }
+.section.alt { max-width: none; background: #f3e6d6; }
+.section h2 { margin-bottom: 24px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+.card { background: #fff; padding: 24px; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.card span { display: block; margin-top: 10px; font-weight: 700; color: #8b5a3c; }
+footer { text-align: center; padding: 24px; color: #8a7565; font-size: .9rem; }
